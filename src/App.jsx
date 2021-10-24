@@ -44,6 +44,8 @@ const App = () => {
                 postsPerPage={postsPerPage}
                 totalPosts={posts.length}
                 paginate={paginate}
+                currentPage={currentPage}
+                previousLabel="previous"
                 className="pagination"
             />
         </div>
